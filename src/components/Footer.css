@@ -1,0 +1,33 @@
+.github, .linkedin {
+  width: 25px;
+}
+
+.footer {
+  background-color: #22222a;
+  padding: 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  color: white;
+  font-family: var(--ubuntu-font-family);
+  font-size: medium;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  width: var(--footer-size);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-copyright-links {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+}

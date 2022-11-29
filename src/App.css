@@ -1,0 +1,11 @@
+.flag-logo{
+  width: 250px;
+}
+
+.content{
+  margin: 0 auto;
+  width: var(--page-size);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

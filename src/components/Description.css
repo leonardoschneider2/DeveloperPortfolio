@@ -1,0 +1,31 @@
+.description {
+  margin: 60px auto 120px;
+  width: var(--page-size);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.my-description {
+  width: var(--description-size);
+}
+
+.my-description-title {
+  font-size: var(--desc-title-fs);
+  font-family: var(--poppins-font-family);
+  margin-bottom: 35px;
+  color: var(--color-black-font-poppins);
+}
+
+.my-description-paragraph {
+  font-size: var(--desc-parag-fs);
+  font-family: var(--ubuntu-font-family);
+  text-align: justify;
+  line-height: 28px;
+}
+
+.photograph {
+  width: var(--my-photograph-size);
+  border-radius: 50%;
+}

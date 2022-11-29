@@ -1,0 +1,9 @@
+.VsCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VsCodeImg {
+  border-radius: 15px; 
+}

@@ -1,0 +1,74 @@
+.content-firstline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(199, 229, 255);
+  padding-bottom: 80px;  
+}
+
+.box-content-firstline {
+  background-color: rgb(199, 229, 255);
+}
+
+.presents {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
+  justify-content: center;
+}
+
+.presents-title {
+  color: var(--color-black-font-poppins);
+  font-family: var(--poppins-font-family);
+  font-size: 50px;
+}
+
+.presents-title-alternate {
+  color: var(--secondary-blue);
+}
+
+.presents-subtitle {
+  font-family: var(--ubuntu-font-family);
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: -20px;
+  color: var(--color-black-font-poppins);
+}
+
+.presents-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.presents-hireme {
+  color: white;
+  background-color: var(--color-blue-ocean);
+  font-family: var(--ubuntu-font-family);
+  text-decoration: none;
+  padding: 17px 41px;
+  border-radius: 26px;
+  font-size: 20px;
+}
+
+.presents-curriculum {
+  color: var(--color-black-font-poppins);
+  font-family: var(--ubuntu-font-family);
+  text-decoration: none;
+  padding: 17px 5px;
+  border-radius: 26px;
+  font-size: 20px;
+}
+
+.blue-span {
+  color: var(--secondary-blue);
+}
+
+.presents-curriculum:hover, .presents-hireme:hover {
+  text-decoration: underline;
+}

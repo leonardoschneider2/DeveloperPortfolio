@@ -1,0 +1,20 @@
+.home-projects {
+  width: var(--page-size);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.home-projects-title {
+  color: var(--color-black-font-poppins);
+  font-family: var(--poppins-font-family);
+  font-size: 26px;
+}
+
+.home-projects-cont {
+  background-color: var(--background-color-light-gray);
+  padding: 40px;
+}

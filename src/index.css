@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  --background-color-light-gray: #d8d8d8;
+  --color-blue-ocean: #051d40;
+  --secondary-blue: rgba(67, 87, 215, 0.8);
+  --color-light-gray: #f5f5f5;
+  --color-black-font-poppins: rgba(0, 0, 0, 0.8);
+  /* FONT-FAMILY */
+  --ubuntu-font-family: 'Ubuntu', sans-serif;
+  --poppins-font-family: 'Poppins', sans-serif;
+  /* FONT-SIZE */
+  --desc-parag-fs: 18px;
+  --desc-title-fs: 40px;
+  /* COMPONENTS SIZE */
+  --footer-size: 400px;
+  --page-size: 1000px;
+  --nav-size: 500px;
+  --description-size: 550px;
+  --my-photograph-size: 300px;
+  /* BORDERS */
+  --simple-border: 1px solid rgb(214, 214, 214);
+}
